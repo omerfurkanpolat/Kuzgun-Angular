@@ -4,7 +4,7 @@ import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { SubCategory } from '../_models/subcategory';
 import { AlertifyService } from '../_services/alertifyjs';
-import { SubCategoryService } from '../_services/subCategory.service';
+import { SubCategoryService } from '../_services/subcategory.service';
 
 @Injectable()
 
